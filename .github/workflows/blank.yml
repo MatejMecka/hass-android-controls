@@ -26,4 +26,4 @@ jobs:
 
       # Step 1: Assemble debug apk to send to firebase test lab
       - name: Assemble Debug APK
-        run: ./gradlew tasks
+        run: ./gradlew assembleDebug
